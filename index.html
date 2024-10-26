@@ -29,7 +29,7 @@
             }
         }
 
-        /* 添加毛玻璃卡片样式 */
+        /* 添加高级毛玻璃卡片样式 */
         .card {
             position: absolute;
             top: 50%;
@@ -37,8 +37,8 @@
             transform: translate(-50%, -50%);
             width: 300px;
             height: 200px;
-            background: rgba(255, 255, 255, 0.5);
-            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.3); /* 调整背景透明度 */
+            backdrop-filter: blur(20px) saturate(180%); /* 增加模糊效果，并提高饱和度 */
             border-radius: 10px;
             display: flex;
             align-items: center;
@@ -47,6 +47,7 @@
             font-size: 24px;
             font-weight: bold;
             text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* 添加阴影以增强层次感 */
         }
 
         /* 超链接样式 */
@@ -62,9 +63,9 @@
     </style>
 </head>
 <body>
-    <!-- 添加毛玻璃卡片 -->
+    <!-- 添加高级毛玻璃卡片 -->
     <div class="card">
-       请稍等…正在进入
+        请稍等…正在进入
         <a href="https://txby.chahehe.space/taxibiyuan-302tococo.html" class="link" target="_blank">
             塔习碧园
         </a>
